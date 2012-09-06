@@ -50,7 +50,7 @@ textarea.typebox {
 
 function buildResult(root) {
 	var result = [];
-	
+	console.log(root);	
 	var matlist = root.search(["*MATERIAL_LIST", "*MATERIAL"]);
 	var geomobj = root.search(["*GEOMOBJECT"]);
 	for (var i=0; i<geomobj.length; ++i) {

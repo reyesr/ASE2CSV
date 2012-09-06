@@ -28,7 +28,11 @@ var ASEexport = (function() {
 			return this;
 		} else {
 			if (this[arr[0]]) {
-				return search(arr.slice(1), this[arr[0]]);
+				if (arr.length > 1) {
+					return this[arr[0]].search(arr.slice(1));
+				} else {
+					return this[arr[0]];
+				}
 			} else {
 				return null;
 			}
