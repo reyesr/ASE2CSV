@@ -12,7 +12,7 @@ There's no server, as everything is done in the browser, so it can work offline.
 
 This really was a side project, quick and dirty, so if you happen to have some use for it, enjoy the hacking. Sorry for the lack of comments.
 
-You can test the program at the following url: 
+You can test the program at the following url: http://kornr.net/3DSExport/ASE-export.html
 
 LICENCE
 ======
